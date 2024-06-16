@@ -16,6 +16,11 @@ def write_todos(todos_arg, filepath=FILEPATH):
         file.writelines(todos_arg)
 
 
-if __name__ == "__main__":
-    print("Hello")
-    print(get_todos())
+def count(phrase):
+    return phrase.count('.')
+
+
+
+# if __name__ == "__main__":
+#    print("Hello")
+#    print(get_todos())

@@ -1,5 +1,5 @@
 import streamlit as st
-import functions
+from modules import functions
 
 todos = functions.get_todos()
 
